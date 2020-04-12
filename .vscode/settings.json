@@ -1,6 +1,7 @@
 {
     "eslint.format.enable": true,
     "cSpell.words": [
-        "fireabase"
+        "fireabase",
+        "primereact"
     ]
 }
