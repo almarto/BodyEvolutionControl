@@ -15,7 +15,7 @@ import { withAuthConfiguration } from 'services/fireabase'
 
 type AuthModalProps = WrappedComponentProps
 const AuthModal: FC<AuthModalProps> = ({ user, loading, signInWithGoogle }) => {
-  if (user) return null
+  if (loading || user) return null
 
   return (
     <Modal isOpen isCentered>
